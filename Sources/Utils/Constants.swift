@@ -16,7 +16,7 @@
 
 import Foundation
 
-struct Constants {
+public struct Constants {
     struct Attributes {
         static let OptimizelyBucketIdAttribute = "$opt_bucketing_id"
         static let OptimizelyBotFilteringAttribute = "$opt_bot_filtering"
@@ -35,7 +35,7 @@ struct Constants {
         case rollout = "rollout"
     }
     
-    struct DecisionInfoKeys {
+    public struct DecisionInfoKeys {
         static let feature = "featureKey"
         static let featureEnabled = "featureEnabled"
         static let sourceInfo = "sourceInfo"
@@ -45,7 +45,7 @@ struct Constants {
         static let variableValue = "variableValue"
     }
     
-    struct ExperimentDecisionInfoKeys {
+    public struct ExperimentDecisionInfoKeys {
         static let experiment = "experimentKey"
         static let experimentId = "experimentId"
         static let variation = "variationKey"
