@@ -36,20 +36,20 @@ public struct Constants {
     }
     
     public struct DecisionInfoKeys {
-        static let feature = "featureKey"
-        static let featureEnabled = "featureEnabled"
-        static let sourceInfo = "sourceInfo"
-        static let source = "source"
-        static let variable = "variableKey"
-        static let variableType = "variableType"
-        static let variableValue = "variableValue"
+        public static let feature = "featureKey"
+        public static let featureEnabled = "featureEnabled"
+        public static let sourceInfo = "sourceInfo"
+        public static let source = "source"
+        public static let variable = "variableKey"
+        public static let variableType = "variableType"
+        public static let variableValue = "variableValue"
     }
     
     public struct ExperimentDecisionInfoKeys {
-        static let experiment = "experimentKey"
-        static let experimentId = "experimentId"
-        static let variation = "variationKey"
-        static let variationId = "variationId"
+        public static let experiment = "experimentKey"
+        public static let experimentId = "experimentId"
+        public static let variation = "variationKey"
+        public static let variationId = "variationId"
+
     }
-    
 }
