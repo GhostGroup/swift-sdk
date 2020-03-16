@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target   = "10.0"
   s.tvos.deployment_target  = "10.0"
   s.source                  = {
-    :git => "https://github.com/optimizely/swift-sdk.git",
+    :git => "https://github.com/GhostGroup/swift-sdk.git",
     :tag => "v"+s.version.to_s
   }
   s.source_files            = "Sources/**/*.swift"
