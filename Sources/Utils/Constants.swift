@@ -16,7 +16,7 @@
 
 import Foundation
 
-struct Constants {
+public struct Constants {
     struct Attributes {
         static let OptimizelyBucketIdAttribute = "$opt_bucketing_id"
         static let OptimizelyBotFilteringAttribute = "$opt_bot_filtering"
@@ -50,6 +50,6 @@ struct Constants {
         public static let experimentId = "experimentId"
         public static let variation = "variationKey"
         public static let variationId = "variationId"
+
     }
-    
 }
